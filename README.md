@@ -1,33 +1,27 @@
-# 🚀 DevFeed
+# DevFeed 📰🚀
 
-A personal React project (built with Create React App and TailwindCSS/your styling) that displays a developer news feed—showcasing my frontend skills and live data handling.
-
-## 🌐 Live Demo
-
-👉 [View Live Demo](https://your-demo-url.com)
-
-## 🛠️ Tech Stack
-
-- React (CRA)
-- TypeScript (if you're using it)
-- Tailwind CSS (or your preferred styling)
-- React Router (for feed and item routes)
-- Public API or MockAPI for dynamic content
-- 🧪 Planned: Firebase/Supabase backend for user profiles and comments
+DevFeed is a sleek, responsive developer news aggregator built with React and TypeScript. It fetches real-time articles from the [DEV.to](https://dev.to/) API and provides an intuitive interface for exploring the latest developer content.
 
 ## ✨ Features
 
-- Dynamic articles fetched from an API (use a real dev news or mock endpoint)
-- Clickable feed cards that navigate to detailed views
-- Search and filter by topic or author
-- Mobile-responsive layout
-- Caching/loading states and error handling
-- Optional dark mode toggle
+- 🔍 **Search** by article title or author
+- 🏷️ **Filter** by tags
+- 🌓 **Dark mode** toggle
+- 📖 **Read More** navigation to article detail pages
+- 📚 **Pagination** for browsing large sets of articles
+- 📱 Fully responsive design
 
-## 🚀 Getting Started
+## 📦 Tech Stack
 
-### Install:
-```bash
-git clone https://github.com/Msagi1/Devfeed.git
-cd Devfeed
-npm install
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router](https://reactrouter.com/)
+- [DEV.to API](https://docs.dev.to/api/)
+- CSS-in-JS with inline styling
+
+## 🧪 How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/devfeed.git
+   cd devfeed
