@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Article } from "../types";
-import ArticleCard from "./ArticleCard";
 
 function ArticlePage({ darkMode }: { darkMode: boolean }) {
   const { id } = useParams<{ id: string }>();
